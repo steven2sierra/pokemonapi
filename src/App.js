@@ -1,7 +1,8 @@
 import React from 'react';
 // import logo from './logo.svg';
 import './App.css';
-import Pokemon from './components/Pokemon';
+// import Pokemon from './components/Pokemon';
+import Axios from './components/Axios';
 
 function App() {
   // style h1
@@ -12,7 +13,7 @@ function App() {
     <div className="App">
       <div>
         <h1 style = {styleH1}>Pokemon API</h1>
-        <Pokemon/>
+        <Axios/>
       </div>
     </div>
   );
